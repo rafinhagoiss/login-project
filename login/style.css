@@ -4,3 +4,11 @@
 #01F219
 #359D3F
 */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#img{
+    background-image: url(../img/pexels-riciardus-41257\ \(1\).jpg);
+    position: absolute;
+}
