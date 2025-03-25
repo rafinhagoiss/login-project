@@ -5,10 +5,53 @@
 #359D3F
 */
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
+    box-sizing : border-box;
 }
 #img{
     background-image: url(../img/pexels-riciardus-41257\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+    transform: translate(40%,50%);
+    border-radius: 5px;
+
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #3EE151, #82D962);
+    background-size: cover;
+    justify-content: center;
+   
+}
+#form{
+    background-color: white;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50%;
+    width: 100%;/*vou te que cria outra configuração em tela grande*/
+    border-radius: 5px;
+}
+h1,p{
+     text-align: center;
+     padding: 10px;
+}
+form{
+    padding: 5px;
+}
+
+#email,#senha{
+    padding: 5px;
+    border-radius: 8px 0px 8px 0px;
+    background-color: #3ee15175;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    
 }
