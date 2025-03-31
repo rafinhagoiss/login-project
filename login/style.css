@@ -45,7 +45,7 @@ form{
     padding: 5px;
 }
 
-#email,#senha{
+#email,#senha, #send{
     padding: 5px;
     border-radius: 8px 0px 8px 0px;
     background-color: #3ee15175;
