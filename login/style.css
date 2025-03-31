@@ -55,3 +55,11 @@ form{
     margin: 0 auto;
     
 }
+
+/* media query*/
+
+@media screen  and (min-width: 2560px){
+    #form{
+        width: 83.4%;
+    }
+}
